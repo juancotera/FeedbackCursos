@@ -1,0 +1,18 @@
+.button {
+  text-align: center;
+  background: var(--blue-dark);
+  color: var(--white);
+  font: var(--body1-bold);
+  font-size: 1em;
+  border: 2px solid var(--blue-dark);
+  border-radius: 7.35em;
+  padding-block-start: 11.77px;
+  padding-block-end: 11.77px;
+}
+
+.button:hover {
+  background: var(--purple);
+  border: 2px solid var(--blue-dark);
+  color: var(--blue-dark);
+  cursor: pointer;
+}
