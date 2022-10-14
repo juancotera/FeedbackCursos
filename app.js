@@ -31,8 +31,3 @@ function enviarFeed() {
 }
 
 enviar.addEventListener("click", enviarFeed);
-
-
-//  onclick="document.getElementById('container').style.display='none'"
-// onclick="document.getElementById('container2').style.display='block'"
-//onclick="document.getElementById('container').style.display='none'"
