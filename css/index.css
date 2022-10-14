@@ -71,7 +71,7 @@ img {
   font: var(--body1-regular);
 }
 
-.purple {
+.active {
   background: var(--purple);
 }
 

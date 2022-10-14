@@ -1,4 +1,15 @@
 
+let elements = document.querySelectorAll(".flow");
+
+for (var i = 0; i < elements.length; i++) {
+  elements[i].addEventListener("click", function() {
+    if ((document.querySelector('.active'))) {
+      document.querySelector('.active').classList.remove('active')
+    }
+    this.classList.add('active')
+  })
+}
+
 //BOTON DE ENVIAR
 let enviar = document.getElementById('enviar');
 
