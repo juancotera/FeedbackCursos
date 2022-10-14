@@ -38,6 +38,14 @@ body {
   gap: 1rem;
 }
 
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
 .score {
   display: flex;
   justify-content: space-between;
@@ -49,6 +57,10 @@ body {
   gap: .5em;
 }
 
+img {
+  width: 100%;
+}
+
 .text h2 {
   margin: 0;
   font: var(--h1);
@@ -57,6 +69,10 @@ body {
 .text p {
   margin: 0;
   font: var(--body1-regular);
+}
+
+.purple {
+  background: var(--purple);
 }
 
 @media only screen and (min-width: 600px) {
